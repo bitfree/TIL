@@ -5,6 +5,10 @@ movies = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91,
 
 
 def print_lol(a_list):
+    """
+
+    :rtype: object
+    """
     for each_item in a_list:
         if isinstance(each_item, list):
             print_lol(each_item)
