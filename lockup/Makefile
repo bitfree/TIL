@@ -1,5 +1,3 @@
-KERNELDIR = /lib/modules/$(shell uname -r)/build
-
 obj-m   := lockup.o
 
 KDIR    := /lib/modules/$(shell	uname -r)/build
