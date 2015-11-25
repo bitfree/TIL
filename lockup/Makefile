@@ -14,3 +14,4 @@ clean:
 	rm -rf *.mod.c
 	rm -rf *.order
 	rm -rf *.symvers 
+	rm -rf .tmp_versions 
