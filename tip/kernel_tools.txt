@@ -4,3 +4,7 @@ linux kernel source
 	sudo apt-get install bison flex
 	you also need libreadline-dev
 	sudo apt-get install libreadline-dev
+
+The program 'perf' is currently not installed. You can install it by typing:
+sudo apt-get install linux-tools-common
+
