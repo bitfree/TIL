@@ -8,3 +8,9 @@ linux kernel source
 The program 'perf' is currently not installed. You can install it by typing:
 sudo apt-get install linux-tools-common
 
+can not find -ldw 
+sudo apt-get install libdw-dev
+
+
+
+
