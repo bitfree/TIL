@@ -1,0 +1,6 @@
+when you can not find bfd.h install binutils-dev 
+linux kernel source
+	cd tools and make net sometimes it ocuurs bison,flex error
+	sudo apt-get install bison flex
+	you also need libreadline-dev
+	sudo apt-get install libreadline-dev
