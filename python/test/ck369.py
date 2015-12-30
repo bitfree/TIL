@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
+# @File : ck369.py
 # @author : bitfree@gmail.com
 # @Ver : 0.1
-#
-# this script check how many clap 369 number from start to end
+# @Date : 2015.12.29
+# @Desc : this script check how many clap 369 number from start to end
 
 
 import sys

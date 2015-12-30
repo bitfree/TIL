@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
+# @File : threesixnine.py
 # @author : bitfree@gmail.com
 # @Ver : 0.2
+# @Date : 2015.12.29
+# @Desc : this script check how many clap 369 number from start to end
 #
-# this script check how many clap 369 number from start to end
-# 2015.12.29
 # Improvement : speed up 2time  check 369 numbers in function when 1000,000
 
 import sys
