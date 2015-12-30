@@ -19,5 +19,7 @@ def check369(a,b):
 		clap = clap + c.count('3') + c.count('6') + c.count('9')
 	print clap
 
-check369(int(sys.argv[1]),int(sys.argv[2]))
+start, end = map(int,sys.stdin.readline().split())
+
+check369(start,end+1)
 

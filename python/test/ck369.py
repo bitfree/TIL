@@ -16,7 +16,9 @@ def ck369(a):
 	clap = clap + str(a).count('3') + str(a).count('6') + str(a).count('9')
 	return int(clap)
 
-for k in xrange(int(sys.argv[1]),int(sys.argv[2])+1):
+
+start, end = map(int,sys.stdin.readline().split())
+for k in xrange(start,end+1):
 	L.append(ck369(k))
 
 print sum(L) 
