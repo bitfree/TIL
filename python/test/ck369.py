@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # @author : bitfree@gmail.com
-# Ver : 0.1
+# @Ver : 0.1
 #
 # this script check how many clap 369 number from start to end
 
