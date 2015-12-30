@@ -5,7 +5,7 @@
 #
 # this script check how many clap 369 number from start to end
 # 2015.12.29
-# Improvement : speed up check 369 numbers in function
+# Improvement : speed up 2time  check 369 numbers in function when 1000,000
 
 import sys
 import getopt
