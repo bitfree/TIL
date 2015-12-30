@@ -12,7 +12,6 @@ import sys
 import getopt
 
 
-
 def check369(a,b):
 	clap = 0
 	for c in [str(x) for x in xrange(a,b+1)]:
@@ -21,5 +20,4 @@ def check369(a,b):
 
 start, end = map(int,sys.stdin.readline().split())
 
-check369(start,end+1)
-
+check369(start,end)
