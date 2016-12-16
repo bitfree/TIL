@@ -10,7 +10,7 @@
 |                  |            | cubridmanger :                                        |                                      |                                   |
 |                  |            | git@github.com:SMARTRND/cm_server_9.3.0.git (f050794) |                                      |                                   |
 +------------------+------------+-------------------------------------------------------+--------------------------------------+-----------------------------------+
-| 9.2.26.0003      | 2016.12.15 | engine :                                              | Fix cmserver corrupt unintentionally | Reproduce steps are not available |
+| 9.2.26.0005      | 2016.12.15 | engine :                                              | Fix cmserver corrupt unintentionally | Reproduce steps are not available |
 |                  |            | http://svn.cubrid.org/cubridengine/tags/9.2_Patch_26/ |                                      |                                   |
 |                  |            |                                                       |                                      |                                   |
 |                  |            | cubridmanger :                                        |                                      |                                   |
