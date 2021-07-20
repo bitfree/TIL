@@ -1,0 +1,2 @@
+#This is Window command tool
+wmic command
