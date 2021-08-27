@@ -1,3 +1,4 @@
+0. KISS
 1. RTFM : Read The Fine(Fucking) Manual
 2. ODA : Observation Decision Action
 3. Don't Fear 
