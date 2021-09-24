@@ -298,3 +298,6 @@ make: *** [Makefile:1576: deb-pkg] 오류 2
 - scripts/config --disable SYSTEM_TRUSTED_KEYS 또는,
 
 - scripts/config --set-str SYSTEM_TRUSTED_KEYS ""
+
+# ref : https://askubuntu.com/questions/718381/how-to-compile-and-install-custom-mainline-kernel/718662#718662
+
