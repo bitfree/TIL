@@ -198,8 +198,7 @@ Preparing to unpack .../libx32cilkrts5_5.2.1-22ubuntu2_i386.deb ...
 Unpacking libx32cilkrts5 (5.2.1-22ubuntu2) ...
 Selecting previously unselected package lib64mpx0.
 
-# gelf error 
-apt install libelf-dev 
+
 
 
 Preparing to unpack .../lib64mpx0_5.2.1-22ubuntu2_i386.deb ...
@@ -267,3 +266,35 @@ Setting up g++-5-multilib (5.2.1-22ubuntu2) ...
 Setting up g++-multilib (4:5.2.1-3ubuntu1) ...
 Processing triggers for libc-bin (2.21-0ubuntu4) ...
 
+
+# gelf error 
+apt install libelf-dev 
+
+
+
+  CC      certs/system_keyring.o
+make[4]: *** 'certs/x509_certificate_list'에서 필요한 'debian/canonical-certs.pem' 타겟을 만들 규칙이 없습니다.  멈춤.
+make[3]: *** [Makefile:1858: certs] 오류 2
+make[2]: *** [debian/rules:7: build-arch] 오류 2
+dpkg-buildpackage: error: debian/rules binary subprocess returned exit status 2
+make[1]: *** [scripts/Makefile.package:77: deb-pkg] 오류 2
+make: *** [Makefile:1576: deb-pkg] 오류 2
+
+#solution
+* problem
+
+- 커널 컴파일을 하던 중 다음과 같던 에러가 떴다. 커널 소스는 Nimble 소스코드로 5.6_rc6 버전이다.
+
+- make[1]: *** No rule to make target 'debian/canonical-certs.pem', needed by 'certs/x509_certificate_list'.
+
+  Stop. make: *** [Makefile:1809: certs] Error 2
+
+ 
+
+* Solution
+
+- CONFIG_SYSTEM_TRUSTED_KEYS="debian/canonical-certs.pem" 이렇게 되어있는 것을 CONFIG_SYSTEM_TRUSTED_KEYS = "" 이렇게 바꿔줘야하는데 방법은 아래와 같다.
+
+- scripts/config --disable SYSTEM_TRUSTED_KEYS 또는,
+
+- scripts/config --set-str SYSTEM_TRUSTED_KEYS ""
