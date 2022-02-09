@@ -60,7 +60,7 @@ for top_level_url in list(f):
         # print(type(res))
         the_page =  res.read()
         # print(type(the_page))
-        # print(the_page)
+        print(the_page)
     except urllib.error.URLError as e:
         # datetime.ctime(datetime)
         print(datetime.now())
