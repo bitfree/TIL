@@ -1,5 +1,7 @@
 from plyer import notification
 
+# pip install plyer 
+
 notification.notify(
     title = '제목입니다.',
     message = '메시지 내용입니다.',

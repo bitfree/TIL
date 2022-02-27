@@ -45,8 +45,21 @@ print(the_page)
 # Now all calls to urllib.request.urlopen use our opener.
 urllib.request.install_opener(opener)
 
-res= opener.open('http://10.166.101.43:81/#/dashboard/self',data=None) 
+try: 
+    res= opener.open('http://10.166.101.43:81/#/dashboard/self',data=None) 
+    page_2 = res.read()
+    print(page_2)
+except:
+    pass
 
-page_2 = res.read()
+from plyer import notification
 
-print(page_2)
+# pip install plyer 
+
+notification.notify(
+    title = '제목입니다.',
+    message = '메시지 내용입니다.',
+    app_name = "앱 이름",
+    # app_icon = 'bluemen_white.ico', # 'C:\\icon_32x32.ico'
+    timeout = 10,  # seconds
+)
