@@ -1,0 +1,47 @@
+    1  sudo apt update
+    2  sudo apt intall build-dep 
+    3  sudo apt install build-essential  
+    4  sudo apt update 
+    5  sudo apt upgrade  -y
+    6  ls /boot/
+    7  ls
+    8  cd /boot/
+    9  ls
+   10  cd efi/
+   11  ls
+   12  ll
+   13  sudo su
+   14  cd
+   15  cd /boot/
+   16  ll
+   17  uname  -a
+   18  reboot
+   19  sudo apt search korean
+   20  gnome-control-center 
+   21  sudo apt install xfonts-baekmuk 
+   22  sudo apt search korean | grep firefox
+   23  sudo apt install firefox-locale-ko 
+   24  gnome-language-selector 
+   25  gnome-session-properties 
+   26  gnome-language-selector 
+   27  ibus-setup
+   28  which python
+   29  clear
+   30  ls
+   31  ll
+   32  clear
+   33  ls
+   34  gnome-screenshot 
+   35  ls
+   36  gnome-control-center 
+   37  firefox 
+   38  audacity 
+   39  audio
+   40  audacious
+   41  sudo apt install  audacious audacious-dev  audacious-plugins audacious-plugins-data  
+   42  audacious 
+   43  sudo apt install apache2 apache2-dev  apache2-utils  apache2-data  apache2-bin  apache2-ssl-dev  
+   44  systemctl start apache-htcacheclean.service 
+   45  sudo /etc/init.d/apache2  start
+   46  history 
+   47  history > history.txt
