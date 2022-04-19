@@ -45,3 +45,33 @@
    45  sudo /etc/init.d/apache2  start
    46  history 
    47  history > history.txt
+   
+
+
+
+단일 패키지와 동일하게
+
+패키지 그룹 중에서는 단일 패키지처럼 설치가 가능한 것도 있음
+
+sudo apt install build-essential
+
+tasksel
+
+tasksel을 이용하여 GUI로 패키지 그룹을 설치하는 방법도 있음
+
+sudo apt install tasksel
+tasksel
+tasksel lamp-server
+
+^ 기호
+
+sudo apt install 패키지그룹이름^
+
+sudo apt install lamp-server^
+
+반드시 패키지그룹이름 뒤에 ^ 기호를 붙여야 패키지그룹으로 인식함
+
+https://wiki.terzeron.com/ko/OS_%EC%9D%BC%EB%B0%98_%EC%8B%9C%EC%8A%A4%ED%85%9C/Unix%EC%99%80_Linux_Tips/Ubuntu_Linux%EC%97%90%EC%84%9C_%ED%8C%A8%ED%82%A4%EC%A7%80_%EA%B7%B8%EB%A3%B9%EC%9C%BC%EB%A1%9C_%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+ 
+우분투에 패킺 그룹으로 설치하기
+
