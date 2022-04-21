@@ -75,3 +75,7 @@ https://wiki.terzeron.com/ko/OS_%EC%9D%BC%EB%B0%98_%EC%8B%9C%EC%8A%A4%ED%85%9C/U
  
 우분투에 패킺 그룹으로 설치하기
 
+
+#kernel package  빌드 하기 위한 패키지 설치
+
+ sudo apt install libncurses5-dev kernel-package  fakeroot debhelper  libssl-dev  libudev-dev xz-utils  bison 
